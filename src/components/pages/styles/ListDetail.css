@@ -1,0 +1,130 @@
+.container-list-detail {
+  margin: 1em;
+  height: 100vh;
+}
+
+.top-detail {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  height: 220px;
+  background: grey;
+  min-width: 100%;
+}
+
+.right-top-detail {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  min-width: 900px;
+  min-width: 100%;
+  min-height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  border-left: 1px solid rgb(68, 68, 68);
+  color: rgb(44, 44, 44);
+  padding-right: 20px;
+}
+
+.top-detail-attractions {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.top-detail-title {
+  text-align: center;
+  font-size: 16px;
+}
+
+.date-time {
+  color: white;
+  background: rgb(41, 41, 41);
+  font-size: 12px;
+  text-align: right;
+  margin-right: 1px;
+  padding: 12px;
+}
+.prices {
+  color: white;
+  font-size: 16px;
+  text-align: right;
+  padding: 12px;
+}
+
+.event-image {
+  max-width: 300px;
+  min-height: 220px;
+  max-height: 220px;
+  object-fit: cover;
+}
+
+.purchase-section {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 24px;
+  padding-right: 36px;
+}
+
+.purchase-ticket {
+  color: white;
+  background: rgb(42, 184, 240);
+  border-radius: 5px;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 1em;
+  min-width: 200px;
+  text-align: center;
+}
+
+.purchase-ticket:hover {
+  cursor: pointer;
+  background: rgb(29, 152, 201);
+}
+
+.middle-detail {
+  min-height: 400px;
+  display: flex;
+  margin: 12px;
+  padding: 12px;
+  border-top: 1px solid rgb(207, 206, 206);
+  border-bottom: 1px solid rgb(207, 206, 206);
+  justify-content: space-around;
+  font-family: 'Oswald', sans-serif;
+}
+
+.left-middle-detail {
+  width: 70%;
+  overflow-y: scroll;
+}
+
+.right-middle-detail {
+  width: 25%;
+  min-height: 100%;
+  padding-left: 12px;
+  border-left: 1px solid rgb(207, 206, 206);
+}
+
+.venue-image {
+  max-width: 200px;
+  min-height: 200px;
+  object-fit: cover;
+}
+
+.seating-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pulse-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: white;
+  margin: auto;
+}
